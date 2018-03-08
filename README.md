@@ -5,4 +5,4 @@
  - Build docker image: `docker build -t pandoc .`
 
 ## Run
-`docker run -d --rm -p 8080:8080 pandoc`
+`docker run --name pandoc -d --rm -p 8080:8080 pandoc`
